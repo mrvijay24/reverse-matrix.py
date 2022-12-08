@@ -1,0 +1,9 @@
+#matrix formate 2.0
+n=int(input('enter the number of rows:'))
+m=int(input('enter the number of columns:'))
+k=m*n
+for i in range(0,n):
+    for j in range(0,m):
+        print(k,end=' ')
+        k=k-1
+    print()
